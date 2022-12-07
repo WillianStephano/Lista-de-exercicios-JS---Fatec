@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>ex03</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+
+<body>
+   <section class="secao-principal">
+      <div class="conteudo-principal">
+
+         <h1 class="titulo-conteudo">Desenvolva uma página leia o nome, o valor e a quantidade vendida de três produtos.
+            Calcule o valor total da venda.
+         </h1>
+
+         <form class="form">
+
+
+
+            <div class="form-grupo">
+               <label for="nome">Produto 1:</label>
+               <input class="campo campo-nome" type="text" placeholder="Produto">
+               <input class="campo campo-valor" type="text" placeholder="Valor">
+               <input class="campo campo-qtn" type="number" placeholder="Qtn">
+            </div>
+
+            <div class="form-grupo">
+               <label for="nome">Produto 2:</label>
+               <input class="campo campo-nome" type="text" placeholder="Produto" id="nomeProduto2">
+               <input class="campo campo-valor" type="text" placeholder="Valor" id="valorProduto2">
+               <input class="campo campo-qtn" type="number" placeholder="Qtn" id="qtnProduto2">
+            </div>
+
+            <div class="form-grupo">
+               <label for="nome">Produto 3:</label>
+               <input class="campo campo-nome" type="text" placeholder="Produto" id="nomeProduto3">
+               <input class="campo campo-valor" type="text" placeholder="Valor" id="valorProduto3">
+               <input class="campo campo-qtn" type="number" placeholder="Qtn" id="qtnProduto3">
+            </div>
+
+
+            <input type="submit" class="btn" value="Enviar">
+         </form>
+
+         <p class="resultadoProduto1"></p>
+         <p class="resultadoProduto2"></p>
+         <p class="resultadoProduto3"></p>
+
+         <h3 class="total">Valor total:</h3>
+
+
+
+      </div>
+   </section>
+   <script src='ex03.js'></script>
+</body>
+
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>ex06</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+
+<body>
+   <section class="secao-principal">
+      <div class="conteudo-principal">
+
+         <h1 class="titulo-conteudo">Crie uma página que receba N valores do usuário. Crie botões para mostrar todos os
+            valores inseridos, o maior valor e o menor valor do vetor
+         </h1>
+
+         <div class="form-grupo">
+            <label for="nome">Insira um numero
+            </label>
+            <input class="campo campo-inserir numberValue" type="text" placeholder="Insira um numero">
+         </div>
+         <form class="form">
+            <br>
+            <input type="button" value="Inserir" onclick="insert()">
+            <input type="button" value="Exibir todos" onclick="show()">
+            <input type="button" value="Maior" onclick="bigger()">
+            <input type="button" value="Menor" onclick="smaller()">
+         </form>
+         <div class="resultado">Resultado</div>
+
+      </div>
+   </section>
+   <script src='ex07.js'></script>
+</body>
+
+
+</html>
